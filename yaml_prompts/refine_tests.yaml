@@ -1,0 +1,14 @@
+test_refinement:
+  task: "Refine existing unit tests"
+  language: "C++"
+  test_framework: "Google Test"
+  improve:
+    - remove duplicate tests
+    - add necessary includes
+    - improve formatting and naming
+    - strengthen weak or placeholder assertions
+  output_dir: "tests/"
+  format:
+    - clean
+    - grouped by module
+    - compilable

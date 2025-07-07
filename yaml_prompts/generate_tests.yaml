@@ -1,0 +1,12 @@
+test_generation:
+  task: "Generate unit tests"
+  language: "C++"
+  test_framework: "Google Test"
+  avoid:
+    - duplicate tests
+    - missing includes
+  output_dir: "tests/"
+  format:
+    - readable
+    - organized
+  coverage: "maximize"
